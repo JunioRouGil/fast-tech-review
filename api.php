@@ -22,7 +22,7 @@ header('Content-Type: application/json');
     $filtro4 = 'ebc_gt=8';
     $filtro5 = 'ebc_lt=8';
     
-    $filtroName = 'name=Buzz';
+    $filtroName = 'beer_name=Buzz';
 
     switch ($_REQUEST['filtro']){
         case 0:
